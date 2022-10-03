@@ -7,7 +7,7 @@ if len(sys.argv) >= 2:
 else:
 	port = 28333     # if not, use this one
 
-s = socket.socket(). 
+s = socket.socket()
 
 # bind to the port & listen
 s.bind(('', port))
